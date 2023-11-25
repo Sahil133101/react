@@ -4,20 +4,15 @@ import Secondrow from './component/Secondrow';
 import Third from './component/Third';
 export default function App (){
   return (
-    
-      <center>
+    <center className='TodoContainer'>
         <Appnane/>
        <Firstrow />
   <br />
-  <br />
   <Secondrow />
-
 <br/>
 <Third />
-
-
-      </center>
+</center>
     
-  )
+  );
   
 }
