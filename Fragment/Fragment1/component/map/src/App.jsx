@@ -9,7 +9,7 @@ export default function App() {
     <h1> Healthy Food</h1>
     <ul className="list-group">
       {fooditem.map((item)=>(
-        <li class ="list-group-item"> {item}
+        <li className ="list-group-item"> {item}
         </li>
 
       ))}
