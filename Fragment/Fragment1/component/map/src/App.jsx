@@ -1,25 +1,28 @@
 import React from "react";
+import Item from "./Item";
 export default function App() {
-  let fooditem =["DAL","ROTI","SALAD","MILK" ,"GHEE"]
+  // let fooditem =["DAL","ROTI","SALAD","MILK" ,"GHEE"]
   return(
-    <React.Fragment>
+//     <React.Fragment>
       
       
    
-    <h1> Healthy Food</h1>
-    <ul className="list-group">
-      {fooditem.map((item)=>(
-        <li key={item }className ="list-group-item"> {item}
-        </li>
+//     <h1> Healthy Food</h1>
+//     <ul className="list-group">
+//       {fooditem.map((item)=>(
+//         <li key={item }className ="list-group-item"> {item}
+//         </li>
+        
 
-      ))}
+//       ))}
   
-</ul>
+// </ul>
 
    
   
 
 
-</React.Fragment>
+// </React.Fragment>
+<Item/>
   );
 }

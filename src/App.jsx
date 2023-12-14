@@ -1,7 +1,8 @@
-import Appnane from './component/Appnane';
-import Firstrow from './component/Firstrow';
-import Secondrow from './component/Secondrow';
-import Third from './component/Third';
+import Appnane from './Appnane';
+import Firstrow from './Firstrow';
+import Secondrow from './Secondrow';
+import Third from './Third';
+import React from 'react';
 export default function App (){
   return (
     <center className='TodoContainer'>
