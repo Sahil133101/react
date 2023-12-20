@@ -1,0 +1,47 @@
+.Item2{
+    width:  300px;
+    
+
+    background-color: blue;
+    
+
+    
+}
+
+.Item1{
+
+    width:  300px;
+    
+
+    background-color: khaki;
+
+    
+
+}
+
+.Container{
+
+    width: 302px;
+
+    border:1px solid black;
+    margin: 10px;
+    
+}
+
+.btn-primary {
+ float: right;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:active {
+    background-color: #004080;
+    border-color: #004080;
+  }
+
+
+
+
+
