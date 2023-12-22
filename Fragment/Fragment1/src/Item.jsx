@@ -6,8 +6,8 @@ import "./App.css";
 
 export default function Item({ FoodItem }) {
 
-  const HandleClick = (event) => {
-    console.log(event);
+  const HandleClick = () => {
+    
     console.log(`${FoodItem} 
       "Bought`);
 
@@ -16,7 +16,7 @@ export default function Item({ FoodItem }) {
     
   <>
   <li className= "list-group-item" > <span> {FoodItem} </span>
-  <button className= "btn btn-primary" onClick= {(event) => HandleClick}> Buy</button>
+  <button className= "btn btn-primary" onClick= {() => HandleClick}> Buy</button>
   </li>
  
   </>
