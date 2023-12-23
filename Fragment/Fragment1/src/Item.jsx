@@ -4,7 +4,7 @@ import React from 'react';
 import "./App.css";
 
 
-export default function Item({ FoodItem }) {
+export default function Item({ FoodItem , handleBuyButton}) {
 
   const HandleClick = () => {
     
@@ -16,7 +16,7 @@ export default function Item({ FoodItem }) {
     
   <>
   <li className= "list-group-item" > <span> {FoodItem} </span>
-  <button className= "btn btn-primary" onClick= {() => HandleClick}> Buy</button>
+  <button className= "btn btn-primary" onClick= {HandleClick}> Buy</button>
   </li>
  
   </>

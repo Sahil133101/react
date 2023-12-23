@@ -10,7 +10,7 @@ export default function Fooditem({items}){
           
         {
             items.map((xyz) => (
-              <Item key = {xyz} FoodItem = {xyz}></Item>
+              <Item key = {xyz} FoodItem = {xyz}> handleBuyButton = {()=> console.log(`${items} "bought" `)} </Item>
     
             ))
           }
