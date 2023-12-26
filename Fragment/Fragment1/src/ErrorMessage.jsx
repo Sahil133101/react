@@ -1,3 +1,4 @@
+import "./App.css";
 export default function ErrorMessage ({items}){
 
 //      let FoodItem = ["Dal", "Roti", "Vegetables","Milk","Salad"];
@@ -5,7 +6,7 @@ export default function ErrorMessage ({items}){
     return (
         <>
 
-{items.length == 0  ? <h3> I am Still Hunger </h3> : null}
+{items.length == 0  ? <h3 className="Error"> I am Still Hunger </h3> : null}
         </>
     );
 }

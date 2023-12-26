@@ -15,7 +15,7 @@ export default function Item({ FoodItem , handleBuyButton}) {
   return (
     
   <>
-  <li className= "list-group-item" > <span> {FoodItem} </span>
+  <li className= "list-group-item " > <span> {FoodItem} </span>
   <button className= "btn btn-primary" onClick= {HandleClick}> Buy</button>
   </li>
  
